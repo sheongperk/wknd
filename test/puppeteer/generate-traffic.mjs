@@ -6,6 +6,7 @@ import puppeteer from 'puppeteer';
  * Usage: `WKND_URL=https://main--wknd--<YOUR-GITHUB-USERNAME-OR-ORG>.hlx.live npm run generate-traffic`
  * ITERATIONS can also be specified as an environment variable. Defaults to 10.
  */
+WKND_URL=https://main--wknd--sheongperk.hlx.live ITERATIONS=1000 npm run generate-traffic
 
 const WKND_URL = process.env.WKND_URL;
 const ITERATIONS = parseInt(process.env.ITERATIONS) || 10;
